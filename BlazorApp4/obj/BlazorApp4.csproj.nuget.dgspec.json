@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\myzte\\RiderProjects\\Student-Manager-App\\BlazorApp4\\BlazorApp4.csproj": {}
+    "C:\\Users\\phili\\source\\repos\\Student-Manager-App\\BlazorApp4\\BlazorApp4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\myzte\\RiderProjects\\Student-Manager-App\\BlazorApp4\\BlazorApp4.csproj": {
+    "C:\\Users\\phili\\source\\repos\\Student-Manager-App\\BlazorApp4\\BlazorApp4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\myzte\\RiderProjects\\Student-Manager-App\\BlazorApp4\\BlazorApp4.csproj",
+        "projectUniqueName": "C:\\Users\\phili\\source\\repos\\Student-Manager-App\\BlazorApp4\\BlazorApp4.csproj",
         "projectName": "BlazorApp4",
-        "projectPath": "C:\\Users\\myzte\\RiderProjects\\Student-Manager-App\\BlazorApp4\\BlazorApp4.csproj",
-        "packagesPath": "C:\\Users\\myzte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\myzte\\RiderProjects\\Student-Manager-App\\BlazorApp4\\obj\\",
+        "projectPath": "C:\\Users\\phili\\source\\repos\\Student-Manager-App\\BlazorApp4\\BlazorApp4.csproj",
+        "packagesPath": "C:\\Users\\phili\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\phili\\source\\repos\\Student-Manager-App\\BlazorApp4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\myzte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\phili\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

@@ -24,9 +24,30 @@
 <input @bind="newStudent.Betyg" placeholder="Betyg" />
 <input type="number" @bind="newStudent.Points" placeholder="Poäng" />
 <button class="btn btn-sm btn-success" @onclick="AddStudent">Lägg till</button>
+
+
+<h3>Sortera listan</h3>
+
+<input type="number" @bind="limit" placeholder="Poäng" />
+<button class="btn btn-sm btn-success" @onclick=Create_Sort>Sortera listan Top -> Bot</button>
+
  
 @code {
     
+
+    private int limit;
+
+    private void Create_Sort()
+    {
+        studentLista = studentLista
+            .Where(i => i.Points > limit)
+            .OrderByDescending(i => i.Points)
+            .ToList();
+
+    }
+
+
+
     public class Student
     {
         public string Namn { get; set; } = "";
