@@ -1,5 +1,32 @@
-﻿<h3>Studenter</h3>
+﻿@page "/students"
+@inject HttpClient Http
 
+<PageTitle>Studenter</PageTitle>
+<h1>Studenter</h1>
+
+<p>Den här sidan listar alla studenter .</p>
 @code {
 
+    public class Student
+    {
+        public string Namn { get; set; } = "";
+        public string Betyg { get; set; } = ""; 
+        public decimal Points { get; set; }
+    }
+
+    var stundeter = new list<StudentList>
+    {
+        new() { Name = "Markus", Betyg = "E", Points = 1000 },
+        new() { Name = "Sajad", Betyg = "C", Points = 1300 },
+        new() { Name = "Markus", Betyg = "E", Points = 15000 },
+        new() { Name = "Markus", Betyg = "E", Points = 1000 },
+        new() { Name = "Markus", Betyg = "E", Points = 1000 },
+        new() { Name = "Markus", Betyg = "E", Points = 1000 },
+        new() { Name = "Markus", Betyg = "E", Points = 1000 },
+        new() { Name = "Markus", Betyg = "E", Points = 1000 },
+        new() { Name = "Markus", Betyg = "E", Points = 1000 },
+        new() { Name = "Markus", Betyg = "E", Points = 1000 }
+    };
+
 }
+
