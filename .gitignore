@@ -12,5 +12,5 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-/BlazorApp4/obj
-/BlazorApp4/bin
+./obj
+./bin
