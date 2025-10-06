@@ -13,45 +13,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlazorApp4
 build_property.RootNamespace = BlazorApp4
-build_property.ProjectDir = C:\Users\phili\source\repos\BlazorApp4\BlazorApp4\
+build_property.ProjectDir = /Users/sajadhabibi/RiderProjects/Student-Manager-App/BlazorApp4/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\phili\source\repos\BlazorApp4\BlazorApp4
+build_property.MSBuildProjectDirectory = /Users/sajadhabibi/RiderProjects/Student-Manager-App/BlazorApp4
 build_property._RazorSourceGeneratorDebug = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/phili/source/repos/BlazorApp4/BlazorApp4/App.razor]
+[/Users/sajadhabibi/RiderProjects/Student-Manager-App/BlazorApp4/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phili/source/repos/BlazorApp4/BlazorApp4/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[/Users/sajadhabibi/RiderProjects/Student-Manager-App/BlazorApp4/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phili/source/repos/BlazorApp4/BlazorApp4/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+[/Users/sajadhabibi/RiderProjects/Student-Manager-App/BlazorApp4/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phili/source/repos/BlazorApp4/BlazorApp4/Pages/Studenter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudGVyLnJhem9y
+[/Users/sajadhabibi/RiderProjects/Student-Manager-App/BlazorApp4/Pages/Studenter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3R1ZGVudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phili/source/repos/BlazorApp4/BlazorApp4/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+[/Users/sajadhabibi/RiderProjects/Student-Manager-App/BlazorApp4/Pages/StudentList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3R1ZGVudExpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phili/source/repos/BlazorApp4/BlazorApp4/_Imports.razor]
+[/Users/sajadhabibi/RiderProjects/Student-Manager-App/BlazorApp4/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV2VhdGhlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sajadhabibi/RiderProjects/Student-Manager-App/BlazorApp4/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phili/source/repos/BlazorApp4/BlazorApp4/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-q6diplg1e6
+[/Users/sajadhabibi/RiderProjects/Student-Manager-App/BlazorApp4/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ryvfmz01k2
 
-[C:/Users/phili/source/repos/BlazorApp4/BlazorApp4/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-msam7q0nno
+[/Users/sajadhabibi/RiderProjects/Student-Manager-App/BlazorApp4/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-4w4a3tuyw5

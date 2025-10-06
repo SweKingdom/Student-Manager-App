@@ -1,0 +1,59 @@
+@using System.Linq
+
+<h3>Studentlista</h3>
+
+<button @onclick="SortByName" class="btn btn-primary">Sortera efter namn</button>
+
+<p>Antal studenter: @allStudents.Count | Sortering: @(sortAscending ? "A-Ö" : "Ö-A")</p>
+
+<ul>
+    @foreach (var student in SortedStudents)
+    {
+        <li>@student.Namn - @student.Betyg - @student.Points poäng</li>
+    }
+</ul>
+
+@code {
+    public class Student
+    {
+        public string Namn { get; set; } = "";
+        public string Betyg { get; set; } = "";
+        public decimal Points { get; set; }
+    }
+    
+    private List<Student> allStudents = new()
+    {
+        new() { Namn = "Markus", Betyg = "E", Points = 1000 },
+        new() { Namn = "Sajad", Betyg = "C", Points = 1300 },
+        new() { Namn = "Pelle", Betyg = "A", Points = 1500 },
+        new() { Namn = "Rikard", Betyg = "E", Points = 1000 },
+        new() { Namn = "Elias", Betyg = "C", Points = 1300 },
+        new() { Namn = "Elin", Betyg = "A", Points = 1500 },
+        new() { Namn = "Lovisa", Betyg = "E", Points = 1000 },
+        new() { Namn = "Sara", Betyg = "C", Points = 1300 },
+        new() { Namn = "Cecilia", Betyg = "A", Points = 1500 },
+        new() { Namn = "Ebba", Betyg = "E", Points = 1000 },
+    };
+    
+    private List<Student> SortedStudents = new();
+    private bool sortAscending = true;
+    
+    protected override void OnInitialized()
+    {
+        SortedStudents = allStudents.OrderBy(s => s.Namn).ToList();
+    }
+
+    private void SortByName()
+    {
+        if (sortAscending)
+        {
+            SortedStudents = allStudents.OrderByDescending(s => s.Namn).ToList();
+        }
+        else
+        {
+            SortedStudents = allStudents.OrderBy(s => s.Namn).ToList();
+        }
+        sortAscending = !sortAscending;
+        StateHasChanged();
+    }
+}
