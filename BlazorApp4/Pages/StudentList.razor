@@ -9,49 +9,49 @@
 <ul>
     @foreach (var student in SortedStudents)
     {
-        <li>@student.Namn - @student.Betyg - @student.Points poäng</li>
+        <li>@student.Namn1 - @student.Betyg1 - @student.Points1 poäng</li>
     }
 </ul>
 
 @code {
-    public class Student
+    public class Student1
     {
-        public string Namn { get; set; } = "";
-        public string Betyg { get; set; } = "";
-        public decimal Points { get; set; }
+        public string Namn1 { get; set; } = "";
+        public string Betyg1 { get; set; } = "";
+        public decimal Points1 { get; set; }
     }
     
-    private List<Student> allStudents = new()
+    private List<Student1> allStudents = new()
     {
-        new() { Namn = "Markus", Betyg = "E", Points = 1000 },
-        new() { Namn = "Sajad", Betyg = "C", Points = 1300 },
-        new() { Namn = "Pelle", Betyg = "A", Points = 1500 },
-        new() { Namn = "Rikard", Betyg = "E", Points = 1000 },
-        new() { Namn = "Elias", Betyg = "C", Points = 1300 },
-        new() { Namn = "Elin", Betyg = "A", Points = 1500 },
-        new() { Namn = "Lovisa", Betyg = "E", Points = 1000 },
-        new() { Namn = "Sara", Betyg = "C", Points = 1300 },
-        new() { Namn = "Cecilia", Betyg = "A", Points = 1500 },
-        new() { Namn = "Ebba", Betyg = "E", Points = 1000 },
+        new() { Namn1 = "Markus", Betyg1 = "E", Points1 = 1000 },
+        new() { Namn1 = "Sajad", Betyg1 = "C", Points1 = 1300 },
+        new() { Namn1 = "Pelle", Betyg1 = "A", Points1 = 1500 },
+        new() { Namn1 = "Rikard", Betyg1 = "E", Points1 = 1000 },
+        new() { Namn1 = "Elias", Betyg1 = "C", Points1 = 1300 },
+        new() { Namn1 = "Elin", Betyg1 = "A", Points1 = 1500 },
+        new() { Namn1 = "Lovisa", Betyg1 = "E", Points1 = 1000 },
+        new() { Namn1 = "Sara", Betyg1 = "C", Points1 = 1300 },
+        new() { Namn1 = "Cecilia", Betyg1 = "A", Points1 = 1500 },
+        new() { Namn1 = "Ebba", Betyg1 = "E", Points1 = 1000 },
     };
     
-    private List<Student> SortedStudents = new();
+    private List<Student1> SortedStudents = new();
     private bool sortAscending = true;
     
     protected override void OnInitialized()
     {
-        SortedStudents = allStudents.OrderBy(s => s.Namn).ToList();
+        SortedStudents = allStudents.OrderBy(s => s.Namn1).ToList();
     }
 
     private void SortByName()
     {
         if (sortAscending)
         {
-            SortedStudents = allStudents.OrderByDescending(s => s.Namn).ToList();
+            SortedStudents = allStudents.OrderByDescending(s => s.Namn1).ToList();
         }
         else
         {
-            SortedStudents = allStudents.OrderBy(s => s.Namn).ToList();
+            SortedStudents = allStudents.OrderBy(s => s.Namn1).ToList();
         }
         sortAscending = !sortAscending;
         StateHasChanged();
